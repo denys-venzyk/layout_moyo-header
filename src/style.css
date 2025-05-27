@@ -1,3 +1,8 @@
 body {
   margin: 0;
 }
+
+.header___nav___box {
+  height: 60px;
+  width: 100%;
+}
