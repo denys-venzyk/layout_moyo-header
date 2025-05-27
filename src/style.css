@@ -4,5 +4,69 @@ body {
 
 .header___nav___box {
   height: 60px;
-  width: 100%;
+  border: 5px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header___nav___box___img {
+  width: 40;
+  height: 40;
+  top: 10px;
+  left: 50px;
+  margin: 10px 50px;
+}
+
+.header___nav___box___link {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  align-self: center;
+
+}
+
+.header___nav___box___link1 {
+  text-decoration: none;
+  color: black;
+  width: 37px;
+  height: 15px;
+}
+
+.header___nav___box___link2 {
+  text-decoration: none;
+  color: black;
+}
+
+.header___nav___box___link3 {
+  text-decoration: none;
+  color: black;
+}
+
+.header___nav___box___link4 {
+  text-decoration: none;
+  color: black;
+}
+
+.header___nav___box___link5 {
+  text-decoration: none;
+  color: black;
+}
+
+.header___nav___box___link6 {
+  text-decoration: none;
+  color: black;
+}
+
+.header___nav___box___link7 {
+  text-decoration: none;
+  color: black;
+}
+
+.header___nav___box___link8 {
+  text-decoration: none;
+  color: black;
+  margin-right: 50px;
 }
