@@ -4,3 +4,4 @@ br = branch
 st = status
 ci = commit
 lg = log --oneline --all --decorate
+sw = switch
