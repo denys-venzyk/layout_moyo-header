@@ -18,7 +18,7 @@ body {
 }
 
 .header___nav___box___link {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif ;
   font-weight: 500;
   font-size: 12px;
   line-height: 100%;
@@ -31,7 +31,7 @@ body {
 .header___nav___box___link1 {
   text-decoration: none;
   color: black;
-  width: 37px;
+  font-size: 57px;
   height: 15px;
 }
 
