@@ -20,19 +20,18 @@ body {
 .header___nav___box___link {
   font-family: Roboto, sans-serif ;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 15px;
   line-height: 100%;
   letter-spacing: 0%;
   text-transform: uppercase;
   align-self: center;
-
+  
 }
 
 .header___nav___box___link1 {
   text-decoration: none;
   color: black;
-  font-size: 57px;
-  height: 15px;
+  size: 12px;
 }
 
 .header___nav___box___link2 {
