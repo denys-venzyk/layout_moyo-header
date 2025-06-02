@@ -23,8 +23,8 @@ header {
 }
 
 .nav-links {
-  display: flex;
   gap: 20px;
+  display: flex;
   align-items: center;
   font-size: 12px;
   line-height: 1;
@@ -33,12 +33,14 @@ header {
 }
 
 .link {
-  letter-spacing: 0%;
+  display: flex;
+  letter-spacing: 0;
   position: relative;
   text-decoration: none;
   color: black;
   padding-top: 23px;
   padding-bottom: 22px;
+  font-weight: 500;
 }
 
 .link.is-active {
