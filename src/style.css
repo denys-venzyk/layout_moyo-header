@@ -42,13 +42,13 @@ header {
   color: #00a3e0;
 }
 
-.link.is-active-line {
+.link.is-active-noline {
   color: #00a3e0;
 }
 
 /* Підкреслення під активним посиланням */
 .link.is-active-line::after {
-  content: "";
+  content: '';
   position: absolute;
   bottom: -18px; /* зсуває лінію вниз — до низу контейнера */
   left: 0;
