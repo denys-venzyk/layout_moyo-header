@@ -23,8 +23,6 @@ header {
 }
 
 .nav-links {
-  letter-spacing: 0%;
-  font-weight: 500px;
   display: flex;
   gap: 20px;
   align-items: center;
@@ -35,6 +33,7 @@ header {
 }
 
 .link {
+  letter-spacing: 0%;
   position: relative;
   text-decoration: none;
   color: black;
