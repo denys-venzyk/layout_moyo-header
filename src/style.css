@@ -1,71 +1,77 @@
 body {
   margin: 0;
+  font-family: Roboto, sans-serif;
 }
 
-.header___nav___box {
-  height: 60px;
-  border: 5px solid black;
+.header {
+  background-color: white;
+}
+
+.header__nav {
+  padding: 10px 0;
+}
+
+.header__container {
+  width: 1200px;
+  margin: 0 auto;
   display: flex;
+  align-items: center;
   justify-content: space-between;
+  height: 60px;
+  box-sizing: border-box;
 }
 
-.header___nav___box___img {
-  width: 40;
-  height: 40;
-  top: 10px;
-  left: 50px;
-  margin: 10px 50px;
+.logo img {
+  height: 40px;
+  width: auto;
 }
 
-.header___nav___box___link {
-  font-family: Roboto, sans-serif ;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 100%;
-  letter-spacing: 0%;
+.nav-links {
+  display: flex;
+  gap: 20px;
+  align-items: stretch; /* ⬅ Замість center */
+  font-size: 12px;
   text-transform: uppercase;
-  align-self: center;
-  
+  font-weight: 500;
+  position: relative;
+  height: 100%; /* ⬅ Додано */
 }
 
-.header___nav___box___link1 {
+
+.nav-links a {
   text-decoration: none;
   color: black;
-  size: 12px;
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-bottom: 0;
 }
 
-.header___nav___box___link2 {
-  text-decoration: none;
-  color: black;
+.nav-links a.active_line::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 4px;
+  width: 37px;
+  background-color: #00a3e0;
+  border-radius: 2px;
 }
 
-.header___nav___box___link3 {
-  text-decoration: none;
-  color: black;
+
+.nav-links a.active_noline {
+  color: #00a3e0;
 }
 
-.header___nav___box___link4 {
-  text-decoration: none;
-  color: black;
+.nav-links a.active_line {
+  color: #00a3e0;
 }
 
-.header___nav___box___link5 {
-  text-decoration: none;
-  color: black;
-}
 
-.header___nav___box___link6 {
-  text-decoration: none;
-  color: black;
-}
-
-.header___nav___box___link7 {
-  text-decoration: none;
-  color: black;
-}
-
-.header___nav___box___link8 {
-  text-decoration: none;
-  color: black;
-  margin-right: 50px;
+/* 🔻 Медіа-запит для ширини 1024px */
+@media (max-width: 1200px) {
+  .header__container {
+    width: 1024px;
+  }
 }
