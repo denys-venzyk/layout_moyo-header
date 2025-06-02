@@ -3,7 +3,7 @@ body {
   font-family: Roboto, sans-serif;
 }
 
-.header {
+header {
   background-color: white;
 }
 
@@ -17,59 +17,48 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
   height: 60px;
-  box-sizing: border-box;
-}
-
-.logo img {
-  height: 40px;
-  width: auto;
 }
 
 .nav-links {
   display: flex;
   gap: 20px;
-  align-items: stretch; /* ⬅ Замість center */
+  align-items: center;
   font-size: 12px;
   text-transform: uppercase;
   font-weight: 500;
   position: relative;
-  height: 100%; /* ⬅ Додано */
 }
 
-
-.nav-links a {
+.link {
+  position: relative;
   text-decoration: none;
   color: black;
-  position: relative;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  padding-bottom: 0;
 }
 
-.nav-links a.active_line::after {
+/* Активне посилання */
+.link.is-active {
+  color: #00a3e0;
+}
+
+.link.is-active-line {
+  color: #00a3e0;
+}
+
+/* Підкреслення під активним посиланням */
+.link.is-active-line::after {
   content: "";
   position: absolute;
+  bottom: -18px; /* зсуває лінію вниз — до низу контейнера */
   left: 0;
-  bottom: 0;
   height: 4px;
-  width: 37px;
+  width: 100%;
   background-color: #00a3e0;
   border-radius: 2px;
 }
 
-
-.nav-links a.active_noline {
-  color: #00a3e0;
-}
-
-.nav-links a.active_line {
-  color: #00a3e0;
-}
-
-
-/* 🔻 Медіа-запит для ширини 1024px */
+/* Для ширини 1024px */
 @media (max-width: 1200px) {
   .header__container {
     width: 1024px;

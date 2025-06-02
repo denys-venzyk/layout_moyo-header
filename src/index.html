@@ -2,29 +2,46 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
     <title>Moyo header</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="./style.css"
+    />
   </head>
   <body>
-    <div class="header">
+    <header>
       <div class="header__nav">
         <div class="header__container">
           <div class="logo">
-            <img src="images/logo.png" alt="MOYO logo" />
+            <img
+              src="images/logo.png"
+              alt="MOYO logo"
+            />
           </div>
           <nav class="nav-links">
-            <a href="apple" class="active_line">Apple</a>
-            <a href="samsung">Samsung</a>
-            <a href="smartphones">Smartphones</a>
-            <a href="laptops" class="active_noline">Laptops & Computers</a>
-            <a href="gadgets">Gadgets</a>
-            <a href="tablets">Tablets</a>
-            <a href="photo">Photo</a>
-            <a href="video">Video</a>
+            <a
+              href="apple"
+              class="link is-active-line"
+              data-qa="hover"
+            >Apple</a>
+            <a href="samsung" class="link">Samsung</a>
+            <a href="smartphones" class="link">Smartphones</a>
+            <a
+              href="laptops"
+              class="link is-active"
+              data-qa="hover"
+            >Laptops & Computers</a>
+            <a href="gadgets" class="link">Gadgets</a>
+            <a href="tablets" class="link">Tablets</a>
+            <a href="photo" class="link">Photo</a>
+            <a href="video" class="link">Video</a>
           </nav>
         </div>
       </div>
-    </div>
+    </header>
   </body>
 </html>
