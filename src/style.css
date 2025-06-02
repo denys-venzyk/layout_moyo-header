@@ -7,9 +7,7 @@ header {
   background-color: white;
 }
 
-
 .header__container {
-  border: 1px solid red;
   width: 1100px;
   margin: 0 auto;
   display: flex;
@@ -35,20 +33,17 @@ header {
   color: black;
 }
 
-/* Активне посилання */
+
 .link.is-active {
   color: #00a3e0;
 }
 
-.link.is-active-noline {
-  color: #00a3e0;
-}
 
-/* Підкреслення під активним посиланням */
+
 .link.is-active-line::after {
   content: '';
   position: absolute;
-  bottom: -18px; /* зсуває лінію вниз — до низу контейнера */
+  bottom: -18px;
   left: 0;
   height: 4px;
   width: 100%;
@@ -56,7 +51,7 @@ header {
   border-radius: 2px;
 }
 
-/* Для ширини 1024px */
+
 @media (max-width: 1200px) {
   .header__container {
     width: 924px;
