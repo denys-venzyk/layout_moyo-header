@@ -60,7 +60,7 @@ header {
   border-radius: 2px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1199px) {
   .header__container {
     width: 924px;
   }
