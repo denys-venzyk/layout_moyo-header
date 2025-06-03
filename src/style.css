@@ -8,11 +8,13 @@
 }
 
 a,
-*::before, *::after {
+*::before,
+*::after {
   display: inline-block;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   min-width: 320px;
   line-height: 1;
@@ -92,4 +94,8 @@ h6 {
   height: 4px;
   border-radius: 8px;
   background-color: #00acdc;
+}
+
+.is-active {
+  color: #00acdc;
 }
